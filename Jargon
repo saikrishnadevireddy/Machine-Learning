@@ -1,3 +1,33 @@
 Data Mining: Applying all ML techniques to dig into large amounts of data to discover patterns in the data that were not immediately apparent.
+
 Attribute and feature: an attribute is a data type (e.g., “Mileage”), while a feature has several meanings depending on the context, but generally means an attribute plus its value (e.g., “Mileage =15,000”). 
+
+Dimensionality Reduction/Feature extraction: The goal is to simplify the data without loosing too much of information. One way to do is to merge several co-related features into one.
+
+Anamoly Detection: The system is trained with normal instances, and when it sees a new instance it can tell whether it looks like a normal one or is an anomaly
+
+Association rule learning: The goal is to dig into large amounts of Data and discover interesting relations between attributes
+
+Semisupervised learning: Usually a lot of unlabelled dat and a little bit of labelled data
+
+Reinforcement learning: The learning system, called an agent in this context, can observe the environment, select and perform actions, and get rewards in return. It must learn by itself what is the best strategy, called a policy, to get the most reward over time.
+
+Batch learning/Offline learning: Cannot feed more data incrementally. Once new data is available, system has to be trained once again on old and new data. 
+
+Online learning/incremental learning: The system can be trained incrementally by feeding it data instances sequentially, either individually or by small groups called mini-batches.
+
+Learning rate: Important parameter which defines how fast a system should adapt to changing data.
+
+High Learning rate: System will adapt rapidly to the new data, however it is tend to quickly forget the old data.
+
+Slow Learning rate: The system will learn slowly, but it will also be less sensitive to noise in new data or to sequences of nonrepresentative data points
+
+Instance based learning: The system learns the examples by heart, then generalizes to new cases using a similarity measure
+
+Model based learning: Build a model from a set of examples and then use that model to make predictions.
+
+Utility function/fitness function: measures how good your model is
+
+Cost function: measures how bad your model is
+
 
