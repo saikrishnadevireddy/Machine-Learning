@@ -30,4 +30,12 @@ Utility function/fitness function: measures how good your model is
 
 Cost function: measures how bad your model is
 
+Feature engineering: Coming up with a good set of features to train on
+
+Feature Selection: selecting the most useful features to train on among existing features
+
+Feature extraction: combining existing features to produce a more useful one
+
+Overfitting: The model performs well on the training data, but it does not generalize
+
 
